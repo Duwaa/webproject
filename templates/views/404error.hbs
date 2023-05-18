@@ -1,0 +1,36 @@
+
+<html>
+  <head>
+
+    {{>headerlinks}}
+
+  </head>
+  <body>
+
+    {{!-- Main Menu  --}}
+    {{>navbar}} 
+     
+<div class="container-fluid main_header">
+        <div class="row"> 
+            
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- Left side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404error.png" alt="Nature" class="img-fluid" title="Nature technical"></img>
+                        </figure>
+                    
+                        <p>Welcome to weather </p>
+                        <h1>{{errorMsg}} </h1>
+                        <a href="/" ><button>Go Back</button></a>
+                   </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    {{!-- footer --}}
+    {{>footer}}
+  </body>
+</html>
